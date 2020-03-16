@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.back{
+    width: 100%;
+    background-image: url(https://passport.baidu.com/static/passpc-account/img/reg_bg_min.jpg);
+    background-size: cover;
+}
+.box{
+    width: 480px;
+    height: 500px;
+    margin-left: 500px;
+    padding:40px;
+    border-radius:10px;
+    background: rgba(255,255,255,.9);
+}
+.t1{
+    font-size: 16px;
+    color: #333;
+}
+.text{
+    width: 370px;
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 20px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;  
+}
+.test{
+    width: 210px;
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 20px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;
+}
+.getcode{
+    width: 145px;
+    height: 40px;
+    margin-left: 10px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;
+    cursor:pointer;
+}
+input::-webkit-input-placeholder{
+    color:#E0E0E0;
+}
+.btn{
+    width: 400px;
+    height: 50px;
+    border: none;
+    margin-left: 40px;
+    margin-top: 35px;
+    background: #3f89ec;
+    border-radius: 25px;
+    color:white;
+    font-size: 16px;
+    cursor:pointer;
+}
+/* #BDCEFC */
+.select{
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    margin-top:20px;
+}
+.tip{
+    height: 20px;
+    margin-left: 89px;
+    font-size: 14px;
+    color:red;
+}
